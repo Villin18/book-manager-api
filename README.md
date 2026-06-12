@@ -73,30 +73,6 @@ curl -X POST http://localhost:8000/books \
 }
 ```
 
-book-manager-api/
-├── app/                          # Основной код приложения
-│   ├── Database.py               # Работа с SQLite
-│   ├── crud.py                   # CRUD операции
-│   ├── schemas.py                # Pydantic-схемы
-│   ├── main.py                   # FastAPI приложение
-│   ├── routers/
-│   │   └── books.py              # API эндпоинты
-│   └── run.py                    # Точка входа
-│
-├── tests/                        # Автотесты
-│   ├── conftest.py               # Фикстуры pytest
-│   ├── test_crud.py              # Тесты БД
-│   └── test_api.py               # Тесты API
-│
-├── test-documentation/           # Тестовая документация
-│   ├── Test-Plan.md              # Тест-план
-│   ├── Test-Cases.md             # Тест-кейсы
-│   └── Bug-Reports.md            # Баг-репорты
-│
-├── requirements.txt              # Зависимости
-├── .gitignore                    # Исключения для Git
-└── README.md                     # Документация
-
 В папке [`test-documentation/`](test-documentation) находится полная тестовая документация:
 
 | Файл | Содержание |
