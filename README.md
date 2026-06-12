@@ -64,12 +64,14 @@ curl -X POST http://localhost:8000/books \
     "genre": "Dystopian",
     "is_read": true
   }'
-
+```
+## Пример ответа
+```
 {
   "id": 1,
   "message": "Book created"
 }
-
+```
 
 book-manager-api/
 ├── app/                          # Основной код приложения
